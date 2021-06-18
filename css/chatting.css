@@ -58,3 +58,41 @@ main {
   border:2px solid black;
   height:30px;
 }
+
+.chatMessageOne{
+  background-color:pink;
+  border:1px solid black;
+  color:black;
+  height:auto;
+  width:200px
+}
+
+.chatMessageTwo{
+  background-color:greenyellow;
+  border:1px solid black;
+  color:black;
+  height:auto;
+  width:200px
+}
+
+.chatMessageThree{
+  background-color:rgb(247, 63, 63);
+  border:1px solid black;
+  color:black;
+  height:auto;
+  width:200px
+}
+
+.chatMessageFour{
+  background-color:rgb(157, 157, 207);
+  border:1px solid black;
+  color:black;
+  height:auto;
+  width:200px
+}
+
+.messages{
+  max-height:550px;
+  overflow: auto;
+
+}
