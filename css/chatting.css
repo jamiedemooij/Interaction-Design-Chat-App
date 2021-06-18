@@ -6,7 +6,7 @@ html,body,main {
   font-family: 'Roboto', sans-serif;
 }
 main {
-  min-width: 1200px;
+  min-width: 800px;
   min-height: 800px;
 }
 .inputwindow {
@@ -45,4 +45,16 @@ main {
 
 .chatArea4{
   background-color:rgb(147, 147, 245);
+}
+
+.topBar{
+  text-align:center;
+  font-size:larger;
+  font-family:'Roboto', sans-serif;
+}
+
+.headerclass{
+  background-color:rgb(157, 157, 207);
+  border:2px solid black;
+  height:30px;
 }
