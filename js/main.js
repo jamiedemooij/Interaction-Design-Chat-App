@@ -1,6 +1,6 @@
 console.log("JS loaded in");
 //All variables
-const amountOfChatters = 3;
+const amountOfChatters = 1;
 const chatterOne = document.querySelector('.chatArea1');
 const chatterTwo = document.querySelector('.chatArea2');
 const chatterThree = document.querySelector('.chatArea3');
@@ -22,6 +22,7 @@ if(amountOfChatters == 1){
     buttonThree.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldThree.value;
+        chatFieldThree.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageThree");
     }
@@ -29,6 +30,7 @@ if(amountOfChatters == 1){
     buttonFour.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldFour.value;
+        chatFieldFour.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageFour");
     }
@@ -38,6 +40,7 @@ if(amountOfChatters == 1){
     buttonTwo.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldTwo.value;
+        chatFieldTwo.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageTwo");
     }
@@ -45,6 +48,7 @@ if(amountOfChatters == 1){
     buttonThree.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldThree.value;
+        chatFieldThree.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageThree");
     }
@@ -52,6 +56,7 @@ if(amountOfChatters == 1){
     buttonFour.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldFour.value;
+        chatFieldFour.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageFour");
     }
@@ -60,6 +65,7 @@ if(amountOfChatters == 1){
     buttonOne.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldOne.value;
+        chatFieldOne.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageOne");
     }
@@ -67,6 +73,7 @@ if(amountOfChatters == 1){
     buttonTwo.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldTwo.value;
+        chatFieldTwo.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageTwo");
     }
@@ -74,6 +81,7 @@ if(amountOfChatters == 1){
     buttonThree.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldThree.value;
+        chatFieldThree.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageThree");
     }
@@ -81,6 +89,7 @@ if(amountOfChatters == 1){
     buttonFour.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldFour.value;
+        chatFieldFour.value = "";
         messageShowing.appendChild(chatMessage);
         chatMessage.classList.add("chatMessageFour");
     }
