@@ -4,6 +4,7 @@ const numb = document.querySelector(".numb");
               if(counter == 100){
                 clearInterval();
                 window.location.href = "chatting.html";
+                alert("Chatroom loaded");
               }else{
                 counter+=1;
                 numb.textContent = counter + "%";
