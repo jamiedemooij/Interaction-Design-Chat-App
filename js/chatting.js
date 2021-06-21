@@ -1,6 +1,6 @@
 console.log("JS loaded in");
 //All variables
-const amountOfChatters = 1;
+const amountOfChatters = 3;
 const chatterOne = document.querySelector('.chatArea1');
 const chatterTwo = document.querySelector('.chatArea2');
 const chatterThree = document.querySelector('.chatArea3');
@@ -62,14 +62,7 @@ if(amountOfChatters == 1){
     }
     )
 } else {
-    buttonOne.addEventListener('click', function(){
-        const chatMessage = document.createElement("div");
-        chatMessage.innerHTML = chatFieldOne.value;
-        chatFieldOne.value = "";
-        messageShowing.appendChild(chatMessage);
-        chatMessage.classList.add("chatMessageOne");
-    }
-    )
+    checkFieldOne();
     buttonTwo.addEventListener('click', function(){
         const chatMessage = document.createElement("div");
         chatMessage.innerHTML = chatFieldTwo.value;
@@ -95,3 +88,35 @@ if(amountOfChatters == 1){
     }
     )
 }
+
+function checkFieldOne() {
+    buttonOne.addEventListener('click', function () {
+        if (chatFieldOne.value === "") {
+            alert("Please enter a message!");
+        } else {
+            const chatMessage = document.createElement("div");
+            chatMessage.innerHTML = chatFieldOne.value;
+            chatFieldOne.value = "";
+            messageShowing.appendChild(chatMessage);
+            chatMessage.classList.add("chatMessageOne");
+        }
+    }
+    )
+
+}
+
+function checkFieldTwo(){
+    buttonTwo.addEventListener('click', function(){
+        if(chatFieldTwo.value === ""){
+            alert("Please enter a message!");
+        } else {
+            const chatMessage = document.createElement("div");
+            chatMessage.innerHTML = chatFieldTwo.value;
+            chatFieldTwo.value = "";
+            messageShowing.appendChild(chatMessage);
+            chatMessage.classList.add("chatMessageTwo");
+        }
+    }
+    )
+}
+

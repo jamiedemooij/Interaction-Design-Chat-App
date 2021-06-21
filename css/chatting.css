@@ -64,7 +64,8 @@ main {
   border:1px solid black;
   color:black;
   height:auto;
-  width:200px
+  width:200px;
+  border-radius: 20px;
 }
 
 .chatMessageTwo{
@@ -72,7 +73,8 @@ main {
   border:1px solid black;
   color:black;
   height:auto;
-  width:200px
+  width:200px;
+  border-radius: 20px;
 }
 
 .chatMessageThree{
@@ -80,7 +82,8 @@ main {
   border:1px solid black;
   color:black;
   height:auto;
-  width:200px
+  width:200px;
+  border-radius: 20px;
 }
 
 .chatMessageFour{
@@ -88,7 +91,8 @@ main {
   border:1px solid black;
   color:black;
   height:auto;
-  width:200px
+  width:200px;
+  border-radius: 20px;
 }
 
 .messages{
